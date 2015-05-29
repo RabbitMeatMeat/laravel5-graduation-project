@@ -1,0 +1,496 @@
+.contest_nav {
+    word-wrap: break-word;
+    width: 978px;
+    border: 1px solid #008cba;
+    margin:0 auto 5px;
+}
+
+.contest_body {
+    width:980px;
+    padding:0;
+    text-align:center;
+    margin:0 auto;
+}
+
+.contest_footer {
+    width:978px;
+    padding:5px 0;
+    border: 1px solid #008cba;
+    height:82px;
+    font-size:13px;
+    line-height:18px;
+    margin:0 auto;
+    margin-bottom: 8px;
+    text-align:center;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table .header>td, table .header>th {
+    font-size: 1.3em;
+    background: #eee !important;
+    font-weight: bold;
+}
+
+.table-center td {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.pagenav {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.pagenav a {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.sort {
+    float: right;
+}
+
+.sort a {
+    background: #eee;
+    padding: 3px;
+}
+
+.bigger {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.error {
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    width: 100%;
+    background: red;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.error > .close {
+    position: absolute;
+    right: 10px;
+    color: black;
+    top: 2px;
+}
+
+.success {
+    padding: 2px 20px;
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    background: green;
+}
+
+#editinfo p {
+    display: inline;
+}
+
+#editinfo input {
+    width: 230px;
+}
+
+#rating p {
+    display: inline;
+}
+
+#rating div {
+    margin: 5px 0;
+}
+
+.star, .notice, #alertLine {
+    color: red;
+}
+
+.table-show {
+    width:90%;
+    font-size:12px;
+}
+
+.table-form td {
+    padding: 4px 12px;
+    font-size: 16px;
+}
+
+.rollword{
+.word-wrap: break-word;
+    width: 980px;
+    margin: 0px auto;
+    font-size: 18px;
+}
+
+.pagerunstatus {
+    font-size: 11px;
+    color: green;
+}
+
+.contest_navbar {
+    font-size: 16px;
+    background-color: #008cba;
+    height: 45px;
+    font-weight:300;
+}
+
+.contest_collaspe {
+    display: block !important;
+    height: 45px !important;
+    overflow: visible !important;
+    padding: 0px 45px;
+    width: auto;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    line-height: 1.42857143;
+}
+
+.ul_nav {
+    padding: 0px;
+    height:45px;
+    margin:0px;
+    list-style: none;
+}
+
+.ul_nav > li {
+    position: relative;
+    list-style: none;
+    display: inline;
+    float:left;
+    height:inherit;
+    font-size: 16px;
+}
+
+
+.ul_nav > li:hover, .ul_nav > li.active{
+    background-color: #007196;
+}
+
+.ul_nav > li > a {
+    height:auto;
+    font-size: 16px;
+    position: relative;
+    display: block;
+    padding: 12px 22px;
+    line-height: 21px;
+    color:white;
+    text-decoration: none;
+}
+
+.secondnav {
+    background: #008cba;
+    position: absolute;
+    width: 150px;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.secondnav li {
+    margin: 0;
+    padding: 0;
+}
+
+.secondnav > li:hover {
+    background-color: #007196;
+}
+
+
+.secondnav > li > a {
+    display: block;
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+.table-clarification {
+    font-size: 13px;
+}
+
+.modal-lg {
+    width:604px;
+    margin:10px auto;
+}
+
+.modal-content .btn {
+    padding: 6px 8px;
+    margin: 0 10px;
+}
+
+h1, h2, h3, h4, h5{
+    color:#007196;
+}
+
+body {
+    padding:0px;
+}
+
+.table-static {
+    width:90%;
+}
+
+.form-control {
+    width:85%;
+}
+
+.control-label {
+    float:left;
+    font-size: 14px;
+    width:100px;
+}
+
+.input-status {
+    width:110px;
+}
+
+.title-status {
+    padding: 0px 5px;
+}
+
+.select-status-1 {
+    width:110px;
+    height:25px;
+    margin-bottom:4px;
+    padding: 2px;
+}
+
+.select-status-2 {
+    width:140px;
+    height:25px;
+    margin-bottom:4px;
+    padding: 2px;
+}
+
+.button-status {
+    width:50px;
+    margin-left: 10px;
+    background-color:#008cba;
+    color:white;
+    border:1px solid #008cba;
+}
+
+.table-rank {
+    border:1px solid #dddddd;
+}
+
+.table-rank > tbody > tr >td, .table-rank > tbody > tr >th {
+    border-left:1px solid #dddddd;
+}
+
+pre {
+    margin: 0px;
+    padding: 10px;
+}
+
+.highchart-container {
+    margin:20px 0;
+}
+
+pre pre {
+    background-color: #FFFFFF;
+}
+#data-text{
+    width:580px;
+    margin: 10px;
+}
+
+.level0 {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.level1 {
+    color: #ccc !important;
+    font-weight: bold;
+}
+
+.level2 {
+    color: #afa !important;
+    font-weight: bold;
+}
+
+.level3 {
+    color: #7f7 !important;
+    font-weight: bold;
+}
+
+.level4 {
+    color: #abf !important;
+    font-weight: bold;
+}
+
+.level5 {
+    color: #f8f !important;
+    font-weight: bold;
+}
+
+.level6 {
+    color: #fc8 !important;
+    font-weight: bold;
+}
+
+.level7 {
+    color: #fb6 !important;
+    font-weight: bold;
+}
+
+.level8 {
+    color: #f88 !important;
+    font-weight: bold;
+}
+
+.level9 {
+    color: #f00 !important;
+    font-weight: bold;
+}
+
+.myRow > td {
+    background: #def !important;
+}
+
+.msgBox {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background: rgba(250, 250, 250, 0.9);
+    border: 0;
+    padding: 0;
+    width: 400px;
+    height: auto;
+    max-height: 300px;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #888;
+    padding: 5px;
+}
+
+.msgBox > li {
+    padding: 3px 6px;
+}
+
+.msgBox > li + li {
+    border-top: 1px dotted black;
+}
+
+.msgBox a:hover {
+    color: orange !important;
+    text-decoration: none !important;
+}
+
+.msgBox > .msgBoxHeader {
+    padding-left: 2px;
+    position: relative;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.msgBox > .msgBoxHeader > .close {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    top: 2px;
+    right: 10px;
+}
+
+.msgBox > li {
+    position: relative;
+}
+
+.msgBox .postTime, .msgBox .replyTime, .msgBox .hackTime {
+    position: absolute;
+    right: 10px;
+    font-size: .9em;
+    font-style: italic;
+}
+
+.msgBox .poster {
+    position: absolute;
+    right: 10px;
+}
+
+.process {
+    width: 0;
+    height: 32px;
+    margin: 10px 39px;
+    background: url("/images/dot.png") left top;
+    position: relative;
+    text-align: center;
+    color: #008cba;
+    font-size: 1.4em;
+}
+
+.percent {
+    color: #008cba;
+    font-size: 1.4em;
+    position: absolute;
+    left: 100%;
+}
+
+.word {
+    text-align: center;
+    color: #foad4e;
+}
+
+.contest:hover {
+    border-left: 3px solid #aaa;
+    background: #fafafa;
+    margin-left: -3px;
+}
+
+.cstatus {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 18px;
+}
+
+.countdown span {
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background: #f8f8f8;
+}
+
+.problem {
+    text-align: left;
+}
+
+.problem-title {
+    margin-top: 20px;
+}
+
+.problem-title:first-child {
+    margin-top: 0;
+}
+
+.problem-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.problem-content {
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.contest-end {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.global-message {
+    width: 980px;
+    margin: 5px auto -25px;
+}

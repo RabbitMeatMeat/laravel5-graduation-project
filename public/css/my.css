@@ -1,0 +1,220 @@
+
+body {
+    padding-top: 0px;
+}
+
+.mybanner .headerpic {
+    min-width:1200px;
+    height:650px;
+    background-color: #0088CC;
+    background-image: url(../img/background.jpg);
+    background-size:100% auto;
+}
+
+.mybanner .headerpic .navbar-inverse {
+    padding-top: 20px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.mybanner .headerpic .navbar-inverse .navbar-brand {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.mybanner .headerpic .navbar-inverse .navbar-nav {
+    padding-right: 20px;
+}
+.mybanner .headerpic .navbar-inverse .navbar-nav > li > a {
+    color: #efefef;
+    /*font-size: 15px;*/
+}
+.mybanner .headerpic .navbar-inverse .navbar-nav > li .btn {
+    color: #efefef;
+    background-color: transparent;
+    padding: 8px 8px;
+    margin-top: 7px;
+    text-align: center;
+}
+.masthead {
+    padding: 120px 40px;
+    text-align: center;
+    background-color: transparent;
+}
+.masthead h1 {
+    color: rgba(255,255,255,1);
+    font-size: 54px;
+    line-height: 50px;
+}
+.masthead h2 {
+    margin-top: 30px;
+    color: rgba(255,255,255,.8);
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.masthead h3 {
+    color: rgba(255,255,255,.7);
+    font-size: 35px;
+    margin-bottom: .25rem;
+}
+.masthead .btn {
+  margin-top: 30px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.singleblock {
+    margin: 100px 20px;
+    text-align: center;
+}
+.singleblock h1{
+    color: #2e3436;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.singleblock h2{
+    color: #444444;
+    font-size: 30px;
+    font-weight: inherit;
+}
+
+.footer {
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-top: 1px solid #e7e7e7;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+/*login*/
+.login {
+    padding: 15rem 1rem;
+    background-color: #0088CC;
+}
+.login .waring-block {
+    margin-top: -10rem;
+    padding: 20px 20px;
+    width: 100%;
+    background-color: gold;
+    text-align: center;
+}
+.login .waring-block p {
+    font-weight: bold;
+}
+
+.login .panel-body p {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+.login .panel-body hr {
+    padding-bottom: 20px;
+}
+.login .text-center p {
+    color: #FFFFFF;
+}
+.login .text-center p > a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/*register*/
+.register {
+    padding: 12rem 1rem;
+    background-color: #0088CC;
+}
+.register .waring-block {
+    margin-top: -10rem;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: gold;
+    text-align: center;
+}
+.register .waring-block p {
+    font-weight: bold;
+}
+
+.register .panel-body p {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+.register .panel-body hr {
+    padding-bottom: 10px;
+}
+.register .text-center p {
+    color: #FFFFFF;
+}
+.register .text-center p > a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.navbar-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-header .navbar-inverse {
+    background-color: #FFFFFF;
+}
+.navbar-header .navbar-inverse .navbar-brand {
+    padding-top: 15px;
+    padding-left: 0px;
+
+}
+.navbar-header .navbar-inverse .navbar-left {
+    margin-top: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar-header .navbar-inverse .navbar-left >li > a {
+    color: darkgray;
+}
+.navbar-header .navbar-inverse .navbar-left >li > a:hover {
+    color: #00b3ee;
+}
+
+.navbar-header .navbar-inverse .navbar-right {
+    margin-top: 20px;
+    padding-right: 30px;
+}
+.navbar-header .navbar-inverse .navbar-right > li {
+    padding-right: 10px;
+}
+.navbar-header .navbar-inverse .navbar-right > li .btn-default {
+    padding: 10px 5px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #4cae4c;
+    color: #FFFFFF;
+}
+.navbar-header .navbar-inverse .navbar-right .btn-group {
+    /*margin-top: 20px;*/
+    padding-top: 20px;
+    padding-left: 20px;
+    /*width: 10px;*/
+    /*height: 40px;*/
+}
+
+.content {
+    padding-top: 150px;
+}
+.content h1 {
+    padding-left: 100px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    font-size: 60px;
+}
+.content .table .first-cell {
+    /*background-color: #dddddd;*/
+    margin-top: 10px;
+    height: 20px;
+}
+.content .table .second-cell {
+}
