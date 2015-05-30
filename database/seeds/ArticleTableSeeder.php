@@ -14,7 +14,7 @@ class ArticleTableSeeder extends Seeder {
 
     public function run()
     {
-        DB::table('articles')->delete();
+        DB::table('missions')->delete();
 
         for ($i = 0; $i < 10; $i++) {
             Article::create([

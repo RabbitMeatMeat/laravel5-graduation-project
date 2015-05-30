@@ -20,7 +20,7 @@
                     <li><a href="{{ URL('/help') }}">Help</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ URL('/articles/create') }}" class="btn btn-default btn-lg" role="button">Create
+                    <li><a href="{{ URL('/missions/create') }}" class="btn btn-default btn-lg" role="button">Create
                             Mission</a></li>
 
                     <li role="presentation" class="dropdown">
@@ -32,6 +32,11 @@
                             <ul class="dropdown-menu" role="menu">
 
                                 {{--<li>user: {{ Auth::User()->name }}</li>--}}
+                                <li><a href="{{ URL('#') }}"><span class="glyphicon glyphicon-user" aria-hidden="true">
+                                             {{ Auth::user()->name }}</span></a></li>
+
+                                <li><a href="{{ URL('/missions/show/auth') }}"><span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                                             MyMissions</span></a></li>
                                 <li><a href="{{ URL('/') }}"><span class="glyphicon glyphicon-cog" aria-hidden="true">
                                             Seetings</span></a></li>
                                 <li><a href="{{ URL('/auth/logout') }}"><span

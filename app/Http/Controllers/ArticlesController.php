@@ -26,7 +26,7 @@ class ArticlesController extends Controller {
 	 */
 	public function create()
 	{
-		return view('articles.create');
+		return view('missions.create');
 	}
 
 	/**
@@ -65,12 +65,12 @@ class ArticlesController extends Controller {
 	 */
 	public function show($id)
 	{
-       // return view('articles.show');
-		return view('articles.show')->withArticle(Article::find($id));
+       // return view('missions.show');
+		return view('missions.show')->withArticle(Article::find($id));
 	}
     public function showAuth()
     {
-        return view('articles.showAuth')->withArticles(Article::where('user_id', Auth::user()->id)->get());
+        return view('missions.showAuth')->withArticles(Article::where('user_id', Auth::user()->id)->orderBy('created_at',desc)->get());
     }
 	/**
 	 * Show the form for editing the specified resource.
@@ -80,7 +80,7 @@ class ArticlesController extends Controller {
 	 */
 	public function edit($id)
 	{
-		return view('articles.edit')->withArticle(Article::find($id));
+		return view('missions.edit')->withArticle(Article::find($id));
 	}
 
 	/**
@@ -102,7 +102,7 @@ class ArticlesController extends Controller {
         $article->user_id = Auth::user()->id;
 
         if ($article->save()) {
-            return Redirect::to('/articles/show/auth');
+            return Redirect::to('/missions/show/auth');
         } else {
             return Redirect::back()->withInput()->withErrors('保存失败！');
         }
@@ -119,7 +119,7 @@ class ArticlesController extends Controller {
 		$article = Article::find($id);
         $article->delete();
 
-        return Redirect::to('/articles/show/auth');
+        return Redirect::to('/missions/show/auth');
 	}
 
 }

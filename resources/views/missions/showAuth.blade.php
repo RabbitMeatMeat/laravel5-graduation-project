@@ -8,22 +8,22 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">Your Mission</div>
                         <div class="panel-body">
-                            @foreach($articles as $article)
+                            @foreach($missions as $mission)
                                 <div class="title">
-                                    <a href="{{ URL('articles/'.$article->id) }}">
-                                        <h4>{{ $article->title }}</h4>
+                                    <a href="{{ URL('missions'.$mission->id) }}">
+                                        <h4>{{ $mission->title }}</h4>
 
                                     </a>
 
                                     <div class="content">
                                         <p>
-                                            {{ $article->body }}
+                                            {{ $mission->body }}
                                         </p>
                                     </div>
                                 </div>
-                                <a href="{{ URL('articles/'.$article->id.'/edit') }}" class="btn btn-success">Edit</a>
+                                <a href="{{ URL('missions/'.$mission->id.'/edit') }}" class="btn btn-success">Edit</a>
 
-                                <form action="{{ URL('articles/'.$article->id) }}" method="post"
+                                <form action="{{ URL('missions/'.$mission->id) }}" method="post"
                                       style="display: inline">
                                     <input name="_method" type="hidden" value="DELETE">
                                     <input type="hidden" name="_token" value="{{ csrf_token() }}">

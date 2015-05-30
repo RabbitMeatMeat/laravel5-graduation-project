@@ -17,10 +17,18 @@ Route::get('home', 'HomeController@index');
 
 Route::get('/help', 'HomeController@help');
 /*
- * Article
+ *Mission
  */
-Route::resource('articles', 'ArticlesController');
-Route::get('articles/show/auth', 'ArticlesController@showAuth');
+Route::resource('missions', 'MissionsController');
+Route::get('missions/show/auth', 'MissionsController@showAuth');
+Route::post('missions/register', 'MissionsController@register');
+Route::get('missions/chat/{id}', 'MissionsController@chat');
+Route::post('missions/submit/{id}', 'MissionsController@submit');
+/*
+ * Article
+// */
+//Route::resource('articles', 'ArticlesController');
+//Route::get('articles/show/auth', 'ArticlesController@showAuth');
 //Route::get('articles/{id}', 'ArticlesController@show');
 //Route::post('articles/store', 'ArticlesController@store');
 

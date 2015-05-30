@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-use App\Article;
+use App\Mission;
 use App\Page;
 class HomeController extends Controller {
 
@@ -40,9 +40,9 @@ class HomeController extends Controller {
 
 		//return view('home')->withPages(Page::all());
       //  return view('home');
-        $result = Article::where('id','>','0')->orderBy('created_at', 'desc');
-        $articles = $result->paginate(10)->setPath(URL('/home'));
-        return view('home')->withArticles($articles);
+        $result = Mission::where('id','>','0')->orderBy('created_at', 'desc');
+        $missions = $result->paginate(10)->setPath(URL('/home'));
+        return view('home')->withMissions($missions);
 	  //  return view('home')->withArticles(Article::where('id','>',0)->paginate(10));
     }
     public function help()
